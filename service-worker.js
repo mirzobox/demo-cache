@@ -1,6 +1,6 @@
 // Kesh nomi va keshlashni istagan resurslar ro'yxati
-const CACHE_NAME = "my-cache-v1";
-const urlsToCache = ["/", "../index.html", "../css/style.css", "/app.js"];
+const CACHE_NAME = "v1";
+const urlsToCache = ["/", "/index.html", "./style.css", "/app.js"];
 
 // 'install' hodisasi - resurslarni keshga yuklaymiz
 self.addEventListener("install", function (event) {
